@@ -65,10 +65,14 @@ Python安裝完成後，請至`控制台`>`系統及安全性`>`系統`中點選
 
 1. 打開命令提示字元
 2. 在游標後輸入
-      \> pip3 install numpy
+   ````
+   > pip3 install numpy
+   ````
    並按下`Enter`，另外兩個亦然。
-      \> pip3 install pandas
-      \> pip3 install netcdf4
+   ````
+   > pip3 install pandas
+   > pip3 install netcdf4
+   ````
    
 // 03.png
 // 06.png
@@ -82,11 +86,15 @@ Jupyter的安裝方法與上一節安裝相關套件的方法是相同的：
 
 1. 打開命令提示字元
 2. 在游標後輸入
-       \> pip3 install jupyter
+   ````
+   > pip3 install jupyter
+   ````
    並按下`Enter`
 
 安裝完成後，只要在命令提示字元輸入
-   \> jupyter notebook
+````
+> jupyter notebook
+````
 Jupyter Notebook便會從瀏覽器開啟。
 
 <h4 id="execute">執行RemssNetCDF4toCsv</h4>
@@ -96,12 +104,18 @@ Jupyter Notebook便會從瀏覽器開啟。
 
 1. 打開命令提示字元
 2. 先移動到RemssNetCDF4toCsv資料夾的位置
-   \> cd path\to\RemssNetCDF4toCsv
+   ````
+   > cd path\to\RemssNetCDF4toCsv
+   ````
 3. 以python執行RemssNetCDF4toCsv.py
-   \> python RemssNetCDF4toCsv.py input/file/name output/file/name <options>
+   ````
+   > python RemssNetCDF4toCsv.py input/file/name output/file/name <options>
+   ````
    
 想知道RemssNetCDF4toCsv.py的參數輸入規則亦可輸入
-   \> python RemssNetCDF4toCsv.py -h
+````
+> python RemssNetCDF4toCsv.py -h
+````
 查看。
 
 <h6 id="exejupyter">在Jupyter上執行</h6>
