@@ -19,17 +19,17 @@ RemssNetCDF4toCsv
 *   [RemssNetCDF4toCsv.py](./RemssNetCDF4toCsv.py)
 
 四個函式
-*   [printData.py]()
-*   [printGroupInfo.py]()
-*   [printTopInfo.py]()
-*   [printVariableInfo.py]()
+*   [printData.py](./printData.py)
+*   [printGroupInfo.py](./printGroupInfo.py)
+*   [printTopInfo.py](./printTopInfo.py)
+*   [printVariableInfo.py](./printVariableInfo.py)
 
 兩個應用範例程式
-*   [run_RemssNetCDF4toCsv.sh]()
-*   [RemssNetCDF4toCsv.execute.ipynb]()
+*   [run_RemssNetCDF4toCsv.sh](./run_RemssNetCDF4toCsv.sh)
+*   [RemssNetCDF4toCsv.execute.ipynb](./RemssNetCDF4toCsv.execute.ipynb)
 
 一個含有數據檔範例的資料夾
-*   [REMSS-L2P_GHRSST-SSTsubskin-TMI-L2b_20140819_20140830]()
+*   [REMSS-L2P_GHRSST-SSTsubskin-TMI-L2b_20140819_20140830](./REMSS-L2P_GHRSST-SSTsubskin-TMI-L2b_20140819_20140830/)
 
 以及本說明檔
 *   [README.md](./README.md)
