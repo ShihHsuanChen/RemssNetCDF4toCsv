@@ -10,7 +10,7 @@ RemssNetCDF4toCsv
 
 * * *
 
-#<h1 id="introduction">在windows上使用RemssNetCDF4toCsv轉檔程式</h1>
+<h1 id="introduction">在windows上使用RemssNetCDF4toCsv轉檔程式</h1>
 
 本轉檔程式用於將NetCDF4格式(.nc檔)的[GHRSST Level 2P Global Subskin Sea Surface Temperature from TRMM Microwave Imager (TMI) onboard Tropical Rainfall Measurement Mission (TRMM) satellite](https://podaac.jpl.nasa.gov/dataset/TMI-REMSS-L2P-v4) 數據轉存為適宜以excel開啟的逗號分隔檔(.csv)。
 
@@ -43,7 +43,7 @@ RemssNetCDF4toCsv
 **注意：** 以下所提及的版本或是作法並不是唯一的，有興趣的話亦歡迎去google看看其他人都怎麼做。
 
 
-#<h2 id="python3">安裝Python3及相關套件</h2>
+<h2 id="python3">安裝Python3及相關套件</h2>
 
 ### 步驟一：安裝Python3
 首先我們至Python官網([https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/))上下載windows版本的Python主程式。在官網上可以看到諸多版本的主程式，如果您的電腦作業系統為win10，您可以選擇python3.6的最後版本，若作業系統為win7或電腦較舊，則可以試試看python3.4版本。這裡並沒有建議用python3.7是因為此版本過新，穩定性還不如python3.6。
