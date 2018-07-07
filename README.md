@@ -6,6 +6,7 @@ RemssNetCDF4toCsv
 *   [執行RemssNetCDF4toCsv](#execute)
     *   [在命令提示字元(Command line)上執行](#cmd)
     *   [在Jupyter上執行](#exejupyter)
+*   [問題排除](#problem)
 
 * * *
 
@@ -57,7 +58,7 @@ RemssNetCDF4toCsv
 Python安裝完成後，請至`控制台`>`系統及安全性`>`系統`中點選`進階系統設定`，在`進階`標籤中進入環境變數設定。在環境變數的視窗中點選系統變數中的`Path`並按修改。將`path\to\python`與`path\to\python\Scripts`以分號分隔接續在原本的數值之後。以[圖?]為例
 於`C:\ ... ;C:\Windows`後加上 `;C:\Users\w.y.h\AppData\Local\Programs\Python;C:\Users\w.y.h\AppData\Local\Programs\Python\Scripts`。設定完成後按下確定離開。
 
-// 003.png
+// 05.png
 
 ### 步驟三：安裝相關套件
 此步驟將安裝本程式有用到的外部套件，分別為**numpy**、**pandas**、以及**netcdf4**。安裝方法如下：
@@ -69,22 +70,39 @@ Python安裝完成後，請至`控制台`>`系統及安全性`>`系統`中點選
    `> pip3 install pandas`
    `> pip3 install netcdf4`
    
+// 03.png
+// 06.png
+
 基本上這邊結束後就算是安裝完成了。在安裝的過程中你可能會遇到一些問題使得安裝失敗(出現紅字)，請參考[問題排除](#problem)的解法。
 
 
 <h3 id="jupyter">安裝Jupyter</h3>
+安裝Jupyter並不是必要的，它只是另一個python的使用介面，讓第一次接觸python的人比較容易上手。Jupyter的介紹及使用方法可以參考[官方網站](http://jupyter.org/)或是去google輸入Jupyter notebook就會有一堆介紹文章甚至是影片出來。
+Jupyter的安裝方法與上一節安裝相關套件的方法是相同的：
 
+1. 打開命令提示字元
+2. 在游標後輸入
+       > pip3 install jupyter
+   並按下`Enter`
 
+安裝完成後，只要在命令提示字元輸入
+   > jupyter notebook
+Jupyter Notebook便會從瀏覽器開啟。
 
 <h4 id="execute">執行RemssNetCDF4toCsv</h4>
-
-123
-
+這邊提供兩種在windows上執行RemssNetCDF4toCsv的方法。以下皆以單一檔案轉檔為例。
 
 <h5 id="cmd">在命令提示字元(Command line)上執行</h5>
 
-123
-
+1. 打開命令提示字元
+2. 先移動到RemssNetCDF4toCsv資料夾的位置
+   > cd path\to\RemssNetCDF4toCsv
+3. 以python執行RemssNetCDF4toCsv.py
+   > python RemssNetCDF4toCsv.py input/file/name output/file/name <options>
+   
+想知道RemssNetCDF4toCsv.py的參數輸入規則亦可輸入
+   > python RemssNetCDF4toCsv.py -h
+查看。
 
 <h6 id="exejupyter">在Jupyter上執行</h6>
 
