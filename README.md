@@ -111,7 +111,7 @@ Jupyter Notebook便會從瀏覽器開啟。
 這邊提供兩種在windows上執行RemssNetCDF4toCsv的方法。以下皆以單一檔案轉檔為例。
 
 
-### 在命令提示字元(Command line)上執行
+### 在命令提示字元上執行
 
 1. 打開命令提示字元
 2. 先移動到RemssNetCDF4toCsv資料夾的位置
