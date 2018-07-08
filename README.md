@@ -49,7 +49,8 @@ RemssNetCDF4toCsv
 ### 步驟一：安裝Python3
 首先我們至Python官網([https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/))上下載windows版本的Python主程式。在官網上可以看到諸多版本的主程式，如果您的電腦作業系統為win10，您可以選擇python3.6的最後版本，若作業系統為win7或電腦較舊，則可以試試看python3.4版本。這裡並沒有建議用python3.7是因為此版本過新，穩定性還不如python3.6。
 
-// 01.png
+![image.png](https://s25.postimg.cc/ln5mcan4f/image.png){width=50%}
+
 在下載之前請至`控制台`>`系統及安全性`>`系統`中確認電腦的系統類型為32位元作業系統或是64位元作業系統。若為32位元作業系統，請下載該版本的`Windows x86 executable installer`；若為64位元作業系統，則請下載`Windows x86-64 executable installer`。下載後開啟執行檔，請勾選`Add Python 3.x to PATH`，記下安裝路徑(以下圖為例便是C:\Users\w.y.h\AppData\Local\Programs\Python)，並按下`Install Now`執行至完成。
 
 // 002.png
@@ -152,7 +153,7 @@ Jupyter Notebook便會從瀏覽器開啟。
    這個範例將`REMSS-L2P_GHRSST-SSTsubskin-TMI-L2b_20140819_20140830`資料夾裡的檔案`SSTsubskin-TMI-L2b_v04_095451.dat-v02.0-fv01.0.nc`轉檔至同資料夾中，分別產生出test.csv以及test.csv.info兩個文字檔，除此之外，這個範例還指定了經緯度的範圍：東經115度至東經130度，北緯15度至北緯35度。選擇適當的範圍會縮短許多轉檔時間。
    
 5. 其他
-   每一個`In []:`稱為**cell**，你可以在一個cell中打上複數行數的python3指令，並按下`Run`執行。若想新開一個cell，可以直接按`+`新增。若想開一個新的notebook，則可以按左上角的`File>New Notebook>Python3`。
+   每一個`In []:`稱為**cell**，你可以在一個cell中打上複數行數的python3指令，並按下`Run`執行。若想新開一個cell，可以直接按`+`新增。若想開一個新的notebook，則可以按左上角的`File`>`New Notebook`>`Python3`。
 
 * * *
 
