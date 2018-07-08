@@ -2,8 +2,8 @@ RemssNetCDF4toCsv
 =================
 *   [在windows上使用RemssNetCDF4toCsv轉檔程式](#introduction)
 *   [安裝Python3及相關套件](#python3)
-*   [安裝Jupyter](#安裝Jupyter)
-*   [執行RemssNetCDF4toCsv](#執行RemssNetCDF4toCsv)
+*   [安裝Jupyter](#安裝jupyter)
+*   [執行RemssNetCDF4toCsv](#執行remssnetcdf4tocsv)
     *   [在命令提示字元(Command line)上執行](#cmd)
     *   [在Jupyter上執行](#exejupyter)
 *   [問題排除](#problem)
