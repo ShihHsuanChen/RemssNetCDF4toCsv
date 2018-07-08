@@ -101,8 +101,13 @@ Jupyter的安裝方法與上一節安裝相關套件的方法是相同的：
 ````
 Jupyter Notebook便會從瀏覽器開啟。
 
+
+
+* * *
+
 <h4 id="execute">執行RemssNetCDF4toCsv</h4>
 這邊提供兩種在windows上執行RemssNetCDF4toCsv的方法。以下皆以單一檔案轉檔為例。
+
 
 <h5 id="cmd">在命令提示字元(Command line)上執行</h5>
 
@@ -121,8 +126,6 @@ Jupyter Notebook便會從瀏覽器開啟。
 > python RemssNetCDF4toCsv.py -h
 ````
 查看。
-
-* * *
 
 <h6 id="exejupyter">在Jupyter上執行</h6>
 
