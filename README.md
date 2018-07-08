@@ -42,6 +42,7 @@ RemssNetCDF4toCsv
 
 **注意：** 以下所提及的版本或是作法並不是唯一的，有興趣的話亦歡迎去google看看其他人都怎麼做。
 
+* * *
 
 <h2 id="python3">安裝Python3及相關套件</h2>
 
@@ -70,6 +71,8 @@ Python安裝完成後，請至`控制台`>`系統及安全性`>`系統`中點選
    並按下`Enter`，另外兩個亦然。
    ````
    > pip3 install pandas
+   ````
+   ````
    > pip3 install netcdf4
    ````
    
@@ -78,6 +81,8 @@ Python安裝完成後，請至`控制台`>`系統及安全性`>`系統`中點選
 
 基本上這邊結束後就算是安裝完成了。在安裝的過程中你可能會遇到一些問題使得安裝失敗(出現紅字)，請參考[問題排除](#problem)的解法。
 
+
+* * *
 
 <h3 id="jupyter">安裝Jupyter</h3>
 安裝Jupyter並不是必要的，它只是另一個python的使用介面，讓第一次接觸python的人比較容易上手。Jupyter的介紹及使用方法可以參考[官方網站](http://jupyter.org/)或是去google輸入Jupyter notebook就會有一堆介紹文章甚至是影片出來。
@@ -117,6 +122,8 @@ Jupyter Notebook便會從瀏覽器開啟。
 ````
 查看。
 
+* * *
+
 <h6 id="exejupyter">在Jupyter上執行</h6>
 
 首先開啟Jupyter
@@ -143,5 +150,6 @@ Jupyter Notebook便會從瀏覽器開啟。
    每一個`In []:`稱為**cell**，你可以在一個cell中打上複數行數的python3指令，並按下`Run`執行。若想新開一個cell，可以直接按`+`新增。若想開一個新的notebook，則可以按左上角的`File>New Notebook>Python3`。
 
 
+* * *
 
 <h7 id="problem">問題排除</h>
