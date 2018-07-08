@@ -154,7 +154,7 @@ Jupyter Notebook便會從瀏覽器開啟。
 5. 其他
    每一個`In []:`稱為**cell**，你可以在一個cell中打上複數行數的python3指令，並按下`Run`執行。若想新開一個cell，可以直接按`+`新增。若想開一個新的notebook，則可以按左上角的`File>New Notebook>Python3`。
 
-
+# Python3
 * * *
 
 ## 問題排除
