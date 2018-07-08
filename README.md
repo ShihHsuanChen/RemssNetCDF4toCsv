@@ -154,7 +154,7 @@ Jupyter Notebook便會從瀏覽器開啟。
    ```
    run -i RemssNetCDF4toCsv.py REMSS-L2P_GHRSST-SSTsubskin-TMI-L2b_20140819_20140830\20140819002744-REMSS-L2P_GHRSST-SSTsubskin-TMI-L2b_v04_095451.dat-v02.0-fv01.0.nc REMSS-L2P_GHRSST-SSTsubskin-TMI-L2b_20140819_20140830\testout.csv --lon_min 115 --lon_max 130 --lat_min 15 --lat_max 35
    ```
-   這個範例將`REMSS-L2P_GHRSST-SSTsubskin-TMI-L2b_20140819_20140830`資料夾裡的檔案`SSTsubskin-TMI-L2b_v04_095451.dat-v02.0-fv01.0.nc`轉檔至同資料夾中，分別產生出test.csv以及test.csv.info兩個文字檔，除此之外，這個範例還指定了經緯度的範圍：東經115度至東經130度，北緯15度至北緯35度。選擇適當的範圍會縮短許多轉檔時間。
+   這個範例將`REMSS-L2P_GHRSST-SSTsubskin-TMI-L2b_20140819_20140830`資料夾裡的檔案`SSTsubskin-TMI-L2b_v04_095451.dat-v02.0-fv01.0.nc`轉檔至同資料夾中，分別產生出`test.csv`以及`test.csv.info`兩個文字檔，除此之外，這個範例還指定了經緯度的範圍：東經115度至東經130度，北緯15度至北緯35度。選擇適當的範圍會縮短許多轉檔時間。
    
 5. 其他
    每一個`In []:`稱為**cell**，你可以在一個cell中打上複數行數的python3指令，並按下![image.png](https://s25.postimg.cc/ywexymzbz/image.png)執行。若想新開一個cell，可以直接按![image.png](https://s25.postimg.cc/z96c4tpbj/image.png)新增。若想開一個新的notebook，則可以按左上角的`File`>`New Notebook`>`Python3`。
