@@ -49,17 +49,17 @@ RemssNetCDF4toCsv
 ### 步驟一：安裝Python3
 首先我們至Python官網([https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/))上下載windows版本的Python主程式。在官網上可以看到諸多版本的主程式，如果您的電腦作業系統為win10，您可以選擇python3.6的最後版本，若作業系統為win7或電腦較舊，則可以試試看python3.4版本。這裡並沒有建議用python3.7是因為此版本過新，穩定性還不如python3.6。
 
-![image.png](https://s25.postimg.cc/ln5mcan4f/image.png){:height=100px}
+![image.png](https://s25.postimg.cc/ln5mcan4f/image.png)
 
 在下載之前請至`控制台`>`系統及安全性`>`系統`中確認電腦的系統類型為32位元作業系統或是64位元作業系統。若為32位元作業系統，請下載該版本的`Windows x86 executable installer`；若為64位元作業系統，則請下載`Windows x86-64 executable installer`。下載後開啟執行檔，請勾選`Add Python 3.x to PATH`，記下安裝路徑(以下圖為例便是C:\Users\w.y.h\AppData\Local\Programs\Python)，並按下`Install Now`執行至完成。
 
-// 002.png
+![image.png](https://s25.postimg.cc/3x3xr9wov/image.png)
 
 ### 步驟二：更改系統參數
-Python安裝完成後，請至`控制台`>`系統及安全性`>`系統`中點選`進階系統設定`，在`進階`標籤中進入環境變數設定。在環境變數的視窗中點選系統變數中的`Path`並按修改。將`path\to\python`與`path\to\python\Scripts`以分號分隔接續在原本的數值之後。以[圖?]為例
+Python安裝完成後，請至`控制台`>`系統及安全性`>`系統`中點選`進階系統設定`，在`進階`標籤中進入環境變數設定。在環境變數的視窗中點選系統變數中的`Path`並按修改。將`path\to\python`與`path\to\python\Scripts`以分號分隔接續在原本的數值之後。以下圖為例
 於`C:\ ... ;C:\Windows`後加上 `;C:\Users\w.y.h\AppData\Local\Programs\Python;C:\Users\w.y.h\AppData\Local\Programs\Python\Scripts`。設定完成後按下確定離開。
 
-// 05.png
+![image.png](https://s25.postimg.cc/d4w67yobj/image.png)
 
 ### 步驟三：安裝相關套件
 此步驟將安裝本程式有用到的外部套件，分別為**numpy**、**pandas**、以及**netcdf4**。安裝方法如下：
