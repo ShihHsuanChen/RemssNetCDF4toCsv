@@ -1,7 +1,7 @@
-#+TITLE: RemssNetCDF4toCsv
+RemssNetCDF4toCsv
 =================
-*   [[#introduction][在windows上使用RemssNetCDF4toCsv轉檔程式]]
-*   [[#python3][安裝Python3及相關套件]]
+*   [在windows上使用RemssNetCDF4toCsv轉檔程式](#introduction)
+*   [安裝Python3及相關套件](#python3)
 *   [安裝Jupyter](#jupyter)
 *   [執行RemssNetCDF4toCsv](#execute)
     *   [在命令提示字元(Command line)上執行](#cmd)
@@ -9,8 +9,9 @@
 *   [問題排除](#problem)
 
 * * *
+
 ## 在windows上使用RemssNetCDF4toCsv轉檔程式
-`<h1 id="introduction">在windows上使用RemssNetCDF4toCsv轉檔程式</h1>`
+--------------
 
 本轉檔程式用於將NetCDF4格式(.nc檔)的[GHRSST Level 2P Global Subskin Sea Surface Temperature from TRMM Microwave Imager (TMI) onboard Tropical Rainfall Measurement Mission (TRMM) satellite](https://podaac.jpl.nasa.gov/dataset/TMI-REMSS-L2P-v4) 數據轉存為適宜以excel開啟的逗號分隔檔(.csv)。
 
@@ -45,7 +46,7 @@
 * * *
 
 ## 安裝Python3及相關套件
-`<h2 id="python3">安裝Python3及相關套件</h2>`
+--------------
 
 ### 步驟一：安裝Python3
 首先我們至Python官網([https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/))上下載windows版本的Python主程式。在官網上可以看到諸多版本的主程式，如果您的電腦作業系統為win10，您可以選擇python3.6的最後版本，若作業系統為win7或電腦較舊，則可以試試看python3.4版本。這裡並沒有建議用python3.7是因為此版本過新，穩定性還不如python3.6。
@@ -85,7 +86,8 @@ Python安裝完成後，請至`控制台`>`系統及安全性`>`系統`中點選
 
 * * *
 
-<h3 id="jupyter">安裝Jupyter</h3>
+## 安裝Jupyter
+--------------
 安裝Jupyter並不是必要的，它只是另一個python的使用介面，讓第一次接觸python的人比較容易上手。Jupyter的介紹及使用方法可以參考[官方網站](http://jupyter.org/)或是去google輸入Jupyter notebook就會有一堆介紹文章甚至是影片出來。
 Jupyter的安裝方法與上一節安裝相關套件的方法是相同的：
 
@@ -106,7 +108,9 @@ Jupyter Notebook便會從瀏覽器開啟。
 
 * * *
 
-<h4 id="execute">執行RemssNetCDF4toCsv</h4>
+## 執行RemssNetCDF4toCsv
+--------------
+
 這邊提供兩種在windows上執行RemssNetCDF4toCsv的方法。以下皆以單一檔案轉檔為例。
 
 
