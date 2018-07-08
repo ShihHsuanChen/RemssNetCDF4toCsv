@@ -59,12 +59,15 @@ RemssNetCDF4toCsv
 Python安裝完成後，請至`控制台`>`系統及安全性`>`系統`中點選`進階系統設定`，在`進階`標籤中進入環境變數設定。在環境變數的視窗中點選系統變數中的`Path`並按修改。將`path\to\python`與`path\to\python\Scripts`以分號分隔接續在原本的數值之後。以下圖為例
 於`C:\ ... ;C:\Windows`後加上 `;C:\Users\w.y.h\AppData\Local\Programs\Python;C:\Users\w.y.h\AppData\Local\Programs\Python\Scripts`。設定完成後按下確定離開。
 
-![image.png](https://s25.postimg.cc/d4w67yobj/image.png)
+![image.png](https://postimg.cc/image/xhdd9tqi3/)
 
 ### 步驟三：安裝相關套件
 此步驟將安裝本程式有用到的外部套件，分別為**numpy**、**pandas**、以及**netcdf4**。安裝方法如下：
 
 1. 打開命令提示字元
+   
+   ![image.png](https://postimg.cc/image/mhs5y3abv/)
+   
 2. 在游標後輸入
    ````
    > pip3 install numpy
@@ -76,11 +79,8 @@ Python安裝完成後，請至`控制台`>`系統及安全性`>`系統`中點選
    ````
    > pip3 install netcdf4
    ````
-   
-// 03.png
-// 06.png
 
-基本上這邊結束後就算是安裝完成了。在安裝的過程中你可能會遇到一些問題使得安裝失敗(出現紅字)，請參考[問題排除](#problem)的解法。
+基本上這邊結束後就算是安裝完成了。在安裝的過程中你可能會遇到一些問題使得安裝失敗(出現紅字)，請參考[問題排除](#問題排除)的解法。
 
 
 * * *
@@ -143,9 +143,13 @@ Jupyter Notebook便會從瀏覽器開啟。
    > jupyter notebook
    ````
 4. 這時候Jupyter notebook會用你的瀏覽器開啟，並看到這個畫面
-   // 12.png
+
+   ![image.png](https://postimg.cc/image/dziptp6d7/)
+   
    直接點選範例檔`RemssNetCDF4toCsv.execute.ipynb`便會看到以下兩行
-   // 13.png
+   
+   ![image.png](https://postimg.cc/image/jaxmef05n/)
+   
    上面那行是RemssNetCDF4toCsv.py的使用說明，下面的則是轉檔的範例。
    ```
    run -i RemssNetCDF4toCsv.py REMSS-L2P_GHRSST-SSTsubskin-TMI-L2b_20140819_20140830\20140819002744-REMSS-L2P_GHRSST-SSTsubskin-TMI-L2b_v04_095451.dat-v02.0-fv01.0.nc REMSS-L2P_GHRSST-SSTsubskin-TMI-L2b_20140819_20140830\testout.csv --lon_min 115 --lon_max 130 --lat_min 15 --lat_max 35
@@ -153,7 +157,7 @@ Jupyter Notebook便會從瀏覽器開啟。
    這個範例將`REMSS-L2P_GHRSST-SSTsubskin-TMI-L2b_20140819_20140830`資料夾裡的檔案`SSTsubskin-TMI-L2b_v04_095451.dat-v02.0-fv01.0.nc`轉檔至同資料夾中，分別產生出test.csv以及test.csv.info兩個文字檔，除此之外，這個範例還指定了經緯度的範圍：東經115度至東經130度，北緯15度至北緯35度。選擇適當的範圍會縮短許多轉檔時間。
    
 5. 其他
-   每一個`In []:`稱為**cell**，你可以在一個cell中打上複數行數的python3指令，並按下`Run`執行。若想新開一個cell，可以直接按`+`新增。若想開一個新的notebook，則可以按左上角的`File`>`New Notebook`>`Python3`。
+   每一個`In []:`稱為**cell**，你可以在一個cell中打上複數行數的python3指令，並按下![image.png](https://postimg.cc/image/omcize9gb/)執行。若想新開一個cell，可以直接按![image.png](https://postimg.cc/image/kd7sx8dwr/)新增。若想開一個新的notebook，則可以按左上角的`File`>`New Notebook`>`Python3`。
 
 * * *
 
