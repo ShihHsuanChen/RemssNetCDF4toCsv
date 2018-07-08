@@ -4,7 +4,7 @@ RemssNetCDF4toCsv
 *   [安裝Python3及相關套件](#安裝python3及相關套件)
 *   [安裝Jupyter](#安裝jupyter)
 *   [執行RemssNetCDF4toCsv](#執行remssnetcdf4tocsv)
-    *   [在命令提示字元(Command line)上執行](#在命令提示字元\(Command line\)上執行)
+    *   [在命令提示字元(Command line)上執行](#在命令提示字元(command line)上執行)
     *   [在Jupyter上執行](#在jupyter上執行)
 *   [問題排除](#問題排除)
 
