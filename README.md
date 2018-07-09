@@ -162,3 +162,19 @@ Jupyter Notebook便會從瀏覽器開啟。
 * * *
 
 ## 問題排除
+在安裝python套件時可能會遇到以下這個狀況：
+
+![image.png](https://s25.postimg.cc/5owwm4qbj/image.png)
+
+這個error message表示需要**Microsoft Visual C++ 14.0**，也就是需要Visual Studio 2015以上的版本，然而在Win7作業系統的電腦裡大多是不會有這個版本的。Error message中有提到可以去[https://landinghub.visualstudio.com/visual-cpp-build-tools](https://landinghub.visualstudio.com/visual-cpp-build-tools) 下載**Microsoft Visual C++ build tools**，但是個網站已經不存在了，必須從其他地方取得**Microsoft Visual C++ 14.0**。這裡提供一個做法：從**Visual Studio Installer**安裝所需的套件，而這需要約6GB的系統儲存空間。
+
+### 步驟一：下載安裝Visual Studio Installer
+到[Microsoft Visual Studio官方網站](https://visualstudio.microsoft.com/downloads/) 下載**Visual Studio Community**，這邊就直接下載最新版本。
+
+![image.png](https://s25.postimg.cc/kkvftrjqn/image.png)
+
+下載好後直接安裝至完成。
+
+### 步驟二：安裝C++套件
+
+![image.png](https://s25.postimg.cc/bc71oizgv/image.png)
