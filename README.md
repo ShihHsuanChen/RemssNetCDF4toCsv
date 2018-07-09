@@ -38,7 +38,7 @@ RemssNetCDF4toCsv
 以及本說明檔
 *   [README.md](./README.md)
 
-本程式主要使用Python3語言設計，因此需要用python3執行。以下幾個主題將介紹如何在windows下(主要針對win7以及win10)[安裝Python3與相關套件](#python3)、[安裝Jupyter](#jupyter)、以及[如何使用本程式](#execute)。
+本程式主要使用Python3語言設計，因此需要用python3執行。以下幾個主題將介紹如何在windows下(主要針對win7以及win10)[安裝Python3與相關套件](#安裝python3及相關套件)、[安裝Jupyter](#安裝jupyter)、以及[如何執行本程式](#執行remssnetcdf4tocsv)。
 
 **注意：** 以下所提及的版本或是作法並不是唯一的，有興趣的話亦歡迎去google看看其他人都怎麼做。
 
